@@ -1,0 +1,16 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .btn-outer{
+        position: fixed;
+        bottom: 0px;
+    }
+    .whatsappbtn, .callbtn{
+        padding: 7px 14px;
+        font-size: 0.8rem;
+    }
+}
